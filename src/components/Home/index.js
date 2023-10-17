@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 import Logo from './Logo';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -20,6 +21,7 @@ const Home = () => {
     })
 
   return (
+    <>
     <div className='container home-page'>
         <div className='text-zone'>
             <h1>
@@ -71,6 +73,8 @@ const Home = () => {
         </div>
         <Logo />
     </div>
+    <Loader type='line-scale-pulse-out' />
+    </>
   )
 }
 
