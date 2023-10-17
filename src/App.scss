@@ -1,4 +1,4 @@
-$primary-color: #ffd700;
+$primary-color: rgb(211, 0, 0);
 
 @import 'animate.css';
 
@@ -16,6 +16,22 @@ $primary-color: #ffd700;
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Source Code';
+  src: url('./assets/fonts/source-code.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./assets/fonts/space-grotesk.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('./assets/fonts/syne.woff2') format('woff2');
+}
+
 
 input,
 textarea {
