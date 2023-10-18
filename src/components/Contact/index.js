@@ -49,8 +49,7 @@ const Contact = () => {
                     idx={15}
                 />
             </h1>
-            <p style={{fontSize: 14}}>Get in touch with me using the form below! I am always open to new connections, expanding 
-                my network, and any and all potential opportunities.
+            <p style={{fontSize: 14}}>I'd love to hear from you!
             </p>
             <div className='contact-form'>
                 <form ref={refForm} onSubmit={sendEmail}>

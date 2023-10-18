@@ -1,0 +1,100 @@
+.projects-page {
+    // display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    margin-bottom: 100px;
+
+    .text-zone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 20px 20px;
+        padding-top: 20px;
+        margin-left: 60px;
+        margin-top: 30px;
+        height: 100%;
+
+        h1 {
+            font-size: 64px;
+            font-family: 'Syne';
+            color: rgb(0, 0, 213);
+            font-weight: 600;
+            margin-top:0;
+            position: relative;
+            margin-bottom: 5px;
+        }
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .project {
+            margin: 20px 20%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .project2, .project4 {
+            img {
+                position: absolute;
+                float: left;
+                width: 35%;
+                left: 5%;
+                top:30%;
+                display:none;
+            }
+
+            &:hover {
+                img {
+                    display:block;
+                    animation: fadeInUp 1s;
+                }
+            }
+        }
+
+        .project1, .project3 {
+            img {
+                position: absolute;
+                float: left;
+                width: 30%;
+                right: 5%;
+                top:30%;
+                display:none;
+            }
+
+            &:hover {
+                img {
+                    display:block;
+                    animation: fadeInUp 1s;
+                }
+            }
+        }
+
+        .text-content {
+            text-align: center;
+        }
+
+        .proj-link {
+            font-size: 24px;
+            font-family: 'Syne';
+            letter-spacing: 3px;
+            animation: fadeIn 1s 1.8s backwards;
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                text-decoration: line-through;
+            }
+        }
+
+    }
+
+}

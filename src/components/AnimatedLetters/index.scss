@@ -12,8 +12,8 @@
     animation-fill-mode: both;
 
     &:hover {
-        animation: rubberBand 1s;
-        color: black;      
+        animation: shakeY 1s;
+        color: rgba(102, 102, 102, 0.275);      
     }
 }
 
