@@ -1,15 +1,10 @@
 .nav-bar {
     background: white;
-    // width: 60px;
-    // height: 100%;
-    // position: absolute;
     display: flex;
     flex-direction: row;
     padding: 10px 50px;
-    // min-height: 500px;
 
     .logo {
-        // display: block;
         margin: 8px 0;
         width: 50%;
         font-size: 24px;
@@ -17,38 +12,19 @@
         color: black;
         font-weight: 600;
         font-family: 'Syne';
-
-        // img {
-        //     // display: block;
-        //     margin: 8px auto;
-        //     width: 24px;
-        //     height: auto;
-
-        //     &.sub-logo {
-        //         width: 50px;
-        //     }
-        // }
     }
 
     nav {
         display: flex;
         text-align: center;
         justify-content: end;
-        // position: absolute;
-        // height: 210px;
         align-items: center;
         gap: 30px;
-        // top: 50%;
-        // margin-top: -120px;
         width: 50%;
 
         a {
             font-size: 22px;
             color: #4d4d4e;
-            // display: flex;
-            // line-height: 51px;
-            // height: 51px;
-            // position: relative;
             text-decoration: none;
 
             i {
@@ -91,28 +67,60 @@
             }
         }
     }
+}
 
-    // ul {
-    //     // position: absolute;
-    //     // bottom: 20px;
-    //     // width: 100%;
-    //     display: flex;
-    //     // padding: 0;
-    //     list-style: none;
-    //     text-align: center;
-    //     // margin: 0;
-
-    //     li {
-    //         a{
-    //             padding: 7px 0;
-    //             display: block;
-    //             font-size: 15px;
-    //             line-height: 16px;
-
-    //             &:hover svg {
-    //                 color: #9e0000;
-    //             }
-    //         }
+@media screen and (max-width: 1200px) {
+    // .nav-bar { 
+    //   background: transparent;
+    //   position: initial;
+    //   height: auto;
+    //   min-height: auto;
+  
+    //    nav {
+    //     display: none;
+    //    }
+  
+    //    nav {
+    //     width: 100%;
+    //     top: 0;
+    //     left: 0;
+    //     background: #181818;
+    //     height: 100%;
+    //     margin: 0;
+    //     z-index: 2;
+    //     position: fixed;
+  
+    //     &.mobile-show {
+    //       display: block;
     //     }
-    // }
+  
+    //     a {
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //     }
+  
+    //     a:after {
+    //       opacity: 1;
+    //       position: initial;
+    //       width: auto;
+    //       margin-left: 10PX;
+    //     }
+  
+    //     a svg {
+    //       opacity: 1 !important;
+    //     }
+    //    }
+  
+    //    .hamburger-icon,
+    //    .close-icon {
+    //       position: absolute;
+    //       top: 15px;
+    //       right: 15px;
+    //       display: block;
+    //    }
+//     }
+// }
+
+
 }

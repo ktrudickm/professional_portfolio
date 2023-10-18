@@ -9,7 +9,10 @@ const Layout = () => {
             <div className='page'>
 
                 <Outlet />
-
+                <span className="tags bottom-tags">Hello
+                    <br />
+                <span className="bottom-tag-html">Hello</span>
+                </span>
             </div>
         </div>
     )

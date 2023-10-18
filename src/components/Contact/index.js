@@ -74,22 +74,14 @@ const Contact = () => {
                 </form>
             </div>
             </div>
-            {/* <div className='info-map'>
-                Kendall Trudick,
-                <br />
-                United States,
-                <br />
-                Los Angeles, California <br/>
-                <span>ktrudickm@gmail.com</span>
-            </div> */}
-            <div className='map-wrap'>
-                <MapContainer center={[34.052235, -118.243683]} zoom={13}>
-                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
-                    <Marker position={[34.052235, -118.243683]} >
-                        <Popup>Based in Los Angeles, CA</Popup>
-                    </Marker>
-                </MapContainer>
-            </div>
+                <div className='map-wrap'>
+                    <MapContainer center={[34.052235, -118.243683]} zoom={13}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+                        <Marker position={[34.052235, -118.243683]} >
+                            <Popup>Based in Los Angeles, CA</Popup>
+                        </Marker>
+                    </MapContainer>
+                </div>
         </div>
         <Loader type='line-scale-pulse-out'/>
     </>

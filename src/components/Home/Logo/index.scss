@@ -35,3 +35,9 @@
     stroke:rgb(211, 0, 0);
     stroke-width: 10;
 }
+
+@media screen and (max-width: 1200px) {
+    .solid-logo {
+        display: none;
+    }
+}
