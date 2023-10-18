@@ -1,17 +1,19 @@
 .nav-bar {
     background: white;
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
-    padding: 10px 50px;
+    padding: 10px 60px;
 
     .logo {
         margin: 8px 0;
         width: 50%;
-        font-size: 24px;
+        font-size: 22px;
         text-decoration: none;
         color: black;
-        font-weight: 600;
+        font-weight: 350;
         font-family: 'Syne';
+        letter-spacing: -1px;
     }
 
     nav {
@@ -23,9 +25,11 @@
         width: 50%;
 
         a {
-            font-size: 22px;
-            color: #4d4d4e;
+            font-size: 18px;
+            font-weight: 350;
+            color: #000000;
             text-decoration: none;
+            font-family: 'Syne';
 
             i {
                 transition: all 0.3s ease-out;

@@ -11,13 +11,13 @@ const Sidebar = () => (
         </Link>
         <nav>
             <NavLink exact='true' activeclassname='active' to='/'>
-                home
+                HOME
             </NavLink>
             <NavLink exact='true' activeclassname='active' className="about-link" to='/about'>
-                about
+                ABOUT
             </NavLink>
             <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
-                contact
+                CONTACT
             </NavLink>
         </nav>
         {/* <ul>
