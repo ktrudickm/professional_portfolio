@@ -1,10 +1,11 @@
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import Sidebar from '../Sidebar';
+import Footer from '../Footer';
 
 const Contact = () => {
 
@@ -40,12 +41,14 @@ const Contact = () => {
 
   return (
     <>
+    <div className='mainContainer'>
+        <Sidebar/>
         <div className='container contact-page'>
             <div className='text-zone'>
             <h1>
                 <AnimatedLetters
                     letterClass={letterClass}
-                    strArray={['C','o','n','t','a','c','t',' ','m','e']}
+                    strArray={['L','E','T',"'",'S','  ','C','H','A','T']}
                     idx={15}
                 />
             </h1>
@@ -74,16 +77,18 @@ const Contact = () => {
                 </form>
             </div>
             </div>
-                <div className='map-wrap'>
+                {/* <div className='map-wrap'>
                     <MapContainer center={[34.052235, -118.243683]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
                         <Marker position={[34.052235, -118.243683]} >
                             <Popup>Based in Los Angeles, CA</Popup>
                         </Marker>
                     </MapContainer>
-                </div>
+                </div> */}
         </div>
         <Loader type='line-scale-pulse-out'/>
+    </div>
+    <Footer />
     </>
   )
 }

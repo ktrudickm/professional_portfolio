@@ -1,36 +1,91 @@
-.contact-form {
+.contact-page {
+    display: flex;
     width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    margin-bottom: 100px;
+    height: 100vh;
+
+    .text-zone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 20px 20px;
+        padding-top: 20px;
+        margin-left: 60px;
+        margin-top: 30px;
+        height: 100%;
+
+        h1 {
+            font-size: 64px;
+            font-family: 'Syne';
+            color: rgb(0, 0, 213);
+            font-weight: 500;
+            margin-top:0;
+            position: relative;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 14px;
+            color: black;
+            font-family: 'Syne';
+            text-align: center;
+            width: 45%;
+            animation: pulse 1s;
+
+            &:nth-of-type(1) {
+                animation-delay: 1.1s;
+            }
+
+            &:nth-of-type(2) {
+                animation-delay: 1.2s;
+            }
+
+            &:nth-of-type(3) {
+                animation-delay: 1.3s;
+            }
+        }
+    }
+}
+
+.contact-form {
+    width: 50%;
     margin-top: 20px;
 
     ul {
         padding: 0;
         margin: 0;
-
+    
         li {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-bottom: 10px;
-            overflow: hidden;
-            display: block;
-            position: relative;
-            opacity: 0;
-            animation: fadeInUp 2s 2s;
-            animation-fill-mode: forwards;
-            clear: both;
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          margin-bottom: 10px;
+          opacity: 0;
+          overflow: hidden;
+          display: block;
+          clear: both;
+          position: relative;
+          animation: fadeInUp 2s 2s;
+          animation-fill-mode: forwards;
         }
-
+    
         li.half {
-            width: 49%;
-            margin-left: 2%;
-            float: left;
-            clear: none;
-
-            &:first-child {
-                margin-left: 0;
-            }
+          width: 49%;
+          margin-left: 2%;
+          float: left;
+          clear: none;
+    
+          &:first-child {
+            margin-left: 0;
+          }
         }
-    }
+      }
+    
 
     input[type='text'],
     input[type='email'] {
@@ -65,7 +120,6 @@
         padding: 8px 10px;
         border: 1px solid rgb(87, 87, 255);
         float: left;
-        border-radius: 4px;
         margin-top: 0px;
 
         &:hover {
@@ -75,53 +129,53 @@
     }
 }
 
-.info-map {
-    position: absolute;
-    background-color: black;
-    top: 50px;
-    right: 30%;
-    z-index: 999999;
-    width: 267px;
-    padding: 20px;
-    color: white;
-    font-family: 'Helvetica';
-    font-size: 17px;
-    font-weight: 300;
-    opacity: 0;
-    animation: fadeIn 1s 1.5s;
-    animation-fill-mode: forwards;
+// .info-map {
+//     position: absolute;
+//     background-color: black;
+//     top: 50px;
+//     right: 30%;
+//     z-index: 999999;
+//     width: 267px;
+//     padding: 20px;
+//     color: white;
+//     font-family: 'Helvetica';
+//     font-size: 17px;
+//     font-weight: 300;
+//     opacity: 0;
+//     animation: fadeIn 1s 1.5s;
+//     animation-fill-mode: forwards;
 
-    span {
-        font-size: 16px;
-        display: block;
-        padding-top: 20px;
-        color:rgb(0, 0, 213);
-    }
-}
+//     span {
+//         font-size: 16px;
+//         display: block;
+//         padding-top: 20px;
+//         color:rgb(0, 0, 213);
+//     }
+// }
 
-.map-wrap {
-    background: rgba(8, 253, 216, 0.1);
-    float: right;
-    width: 48%;
-    height: 92%;
-    margin-top: -1%;
-  }
+// .map-wrap {
+//     background: rgba(8, 253, 216, 0.1);
+//     float: right;
+//     width: 48%;
+//     height: 92%;
+//     margin-top: -1%;
+//   }
   
-  .leaflet-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    animation: backInRight 1s 1.2s;
-    animation-fill-mode: forwards;
-  }
+//   .leaflet-container {
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0;
+//     animation: backInRight 1s 1.2s;
+//     animation-fill-mode: forwards;
+//   }
 
-  @media screen and (max-width: 900px) {
-    .map-wrap {
-      float: none;
-      margin: 0;
-      width: 100%;
-      height: 400px;
-    }
-}
+//   @media screen and (max-width: 900px) {
+//     .map-wrap {
+//       float: none;
+//       margin: 0;
+//       width: 100%;
+//       height: 400px;
+//     }
+// }
 
