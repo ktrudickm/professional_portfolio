@@ -13,6 +13,9 @@ const Sidebar = () => (
             <NavLink exact='true' activeclassname='active' to='/'>
                 HOME
             </NavLink>
+            <NavLink exact='true' activeclassname='active' className="projects-link" to='/projects'>
+                PROJECTS
+            </NavLink>
             <NavLink exact='true' activeclassname='active' className="about-link" to='/about'>
                 ABOUT
             </NavLink>
