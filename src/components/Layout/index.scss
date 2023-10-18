@@ -1,4 +1,9 @@
-
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow-y:auto;
+  height: 100vh;
+}
 
 // .page {
 //     width: 100%;

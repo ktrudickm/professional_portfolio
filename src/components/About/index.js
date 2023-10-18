@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-import Sidebar from '../Sidebar'
-import Footer from '../Footer'
 
 const About = () => {
 
@@ -20,7 +18,6 @@ const About = () => {
   return (
     <>
     <div className='mainContainer'>
-      <Sidebar />
       <div className='container about-page'>
         <div className='text-zone'>
           <h1>
@@ -79,7 +76,6 @@ const About = () => {
         </div>
       </div>
       <Loader type='line-scale-pulse-out'/>
-      <Footer />
     </div>
     </>
   )

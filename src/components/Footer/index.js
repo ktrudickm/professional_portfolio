@@ -12,7 +12,7 @@ const Footer = () => (
             <h1>© 2023 KENDALL TRUDICK.</h1>
             <h1>ALL RIGHTS RESERVED</h1>
         </div>
-        <ul>
+        <ul className='social-list'>
             <li>
                 <a
                     target='_blank'

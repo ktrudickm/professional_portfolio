@@ -3,9 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import Sidebar from '../Sidebar';
-import Footer from '../Footer';
+// import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 const Contact = () => {
 
@@ -42,7 +40,6 @@ const Contact = () => {
   return (
     <>
     <div className='mainContainer'>
-        <Sidebar/>
         <div className='container contact-page'>
             <div className='text-zone'>
             <h1>
@@ -88,7 +85,6 @@ const Contact = () => {
         </div>
         <Loader type='line-scale-pulse-out'/>
     </div>
-    <Footer />
     </>
   )
 }

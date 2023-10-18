@@ -1,19 +1,14 @@
 import { Outlet } from 'react-router-dom';
 import Sidebar from '../Sidebar';
 import './index.scss';
+import Footer from '../Footer';
 
 const Layout = () => {
     return (
         <div className='App'>
             <Sidebar />
-            <div className='page'>
-
                 <Outlet />
-                <span className="tags bottom-tags">Hello
-                    <br />
-                <span className="bottom-tag-html">Hello</span>
-                </span>
-            </div>
+            <Footer />
         </div>
     )
 }
