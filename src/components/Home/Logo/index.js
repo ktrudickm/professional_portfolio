@@ -1,5 +1,4 @@
 import './index.scss';
-import LogoK from '../../../assets/images/logo-k.png';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
@@ -8,7 +7,6 @@ const Logo = () => {
 
     const bgRef = useRef();
     const outlineLogoRef = useRef();
-    const solidLogoRef = useRef();
 
     useEffect(() => {
         gsap.registerPlugin(DrawSVGPlugin)
@@ -23,23 +21,12 @@ const Logo = () => {
             drawSVG: true,
             duration: 10,
           })
-    
-        gsap.fromTo(
-          solidLogoRef.current,
-          {
-            opacity: 0,
-          },
-          {
-            opacity: 1,
-            delay: 4,
-            duration: 4,
-          }
-        )
+  
       }, [])
 
     return (
         <div className='logo-container' ref={bgRef}>
-            <img ref={solidLogoRef} className='solid-logo' src={LogoK} alt="K"/>
+            
             <svg 
                 version="1.0" 
                 xmlns="http://www.w3.org/2000/svg"
