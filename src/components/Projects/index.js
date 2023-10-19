@@ -31,30 +31,33 @@ const Projects = () => {
             </h1>
           </div>
           <div className='projects-container'>
-            <div className='project project1'>
+            {/* <div className='project project1'>
               <div className='text-content'>
                 <Link to='/' className='proj-link'>Amplify</Link>
                 <p>2023 - Ongoing</p>
               </div>
               <img src={Amp} alt='project'/>
-            </div>
+            </div> */}
             <div className='project project2'>
               <div className='text-content'>
-                <Link to='/' className='proj-link'>Avocado</Link>
+                <a target="_blank" rel='noreferrer' href='https://github.com/ktrudickm/avocado-landing-page' className='proj-link'>Avocado</a>
+                {/* <Link to='/' className='proj-link'>Avocado</Link> */}
                 <p>2021 - Ongoing</p>
               </div>
               <img src={Avo} alt='project'/>
             </div>
             <div className='project project3'>
               <div className='text-content'>
-                <Link to='/' className='proj-link'>To Do</Link>
+                <a target="_blank" rel='noreferrer' href='https://github.com/ktrudickm/To-Do-List' className='proj-link'>To Do List</a>
+                {/* <Link to='/' className='proj-link'>To Do List</Link> */}
                 <p>2023</p>
               </div>
               <img src={ToDo} alt='project'/>
             </div>
             <div className='project project4'>
               <div className='text-content'>
-                <Link to='/' className='proj-link'>Password</Link>
+                <a target="_blank" rel='noreferrer' href='https://github.com/ktrudickm/avocado-' className='proj-link'>Password Gen</a>
+                {/* <Link to='/' className='proj-link'>Password Gen</Link> */}
                 <p>2021</p>
               </div>
               <img src={Pass} alt='project'/>
