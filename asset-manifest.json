@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a78bc3ad.css",
+    "main.js": "/static/js/main.da37a1a2.js",
+    "static/js/787.10c1ab8b.chunk.js": "/static/js/787.10c1ab8b.chunk.js",
+    "static/media/amplify.png": "/static/media/amplify.b82871106d65179b7957.png",
+    "static/media/avocado.png": "/static/media/avocado.27ba4b9730072b4103d6.png",
+    "static/media/password.png": "/static/media/password.1f8cfecf0a8bb884f9c4.png",
+    "static/media/todo.png": "/static/media/todo.7df9abbfefdbaeaa9e9c.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/oi.woff2": "/static/media/oi.40c1b8ffead720f1dfb6.woff2",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/space-grotesk.woff2": "/static/media/space-grotesk.cae74bffb55394a5ba8f.woff2",
+    "static/media/syne.woff2": "/static/media/syne.1aecfc165ac6b67deeba.woff2",
+    "static/media/source-code.woff2": "/static/media/source-code.cfab30709f780ad1a01a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/poppins.woff2": "/static/media/poppins.405055dd680fa1dcdfa2.woff2",
+    "index.html": "/index.html",
+    "main.a78bc3ad.css.map": "/static/css/main.a78bc3ad.css.map",
+    "main.da37a1a2.js.map": "/static/js/main.da37a1a2.js.map",
+    "787.10c1ab8b.chunk.js.map": "/static/js/787.10c1ab8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a78bc3ad.css",
+    "static/js/main.da37a1a2.js"
+  ]
+}
