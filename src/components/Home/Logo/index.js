@@ -1,31 +1,31 @@
 import './index.scss';
-import { useEffect, useRef } from 'react';
-import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
+// import { useEffect, useRef } from 'react';
+// import gsap from 'gsap-trial'
+// import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
 
 const Logo = () => {
 
-    const bgRef = useRef();
-    const outlineLogoRef = useRef();
+    // const bgRef = useRef();
+    // const outlineLogoRef = useRef();
 
-    useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin)
+    // useEffect(() => {
+    //     gsap.registerPlugin(DrawSVGPlugin)
     
-        gsap
-          .timeline()
-          .to(bgRef.current, {
-            duration: 1,
-            opacity: 1,
-          })
-          .from(outlineLogoRef.current, {
-            drawSVG: true,
-            duration: 10,
-          })
+    //     gsap
+    //       .timeline()
+    //       .to(bgRef.current, {
+    //         duration: 1,
+    //         opacity: 1,
+    //       })
+    //       .from(outlineLogoRef.current, {
+    //         drawSVG: true,
+    //         duration: 10,
+    //       })
   
-      }, [])
+    //   }, [])
 
     return (
-        <div className='logo-container' ref={bgRef}>
+        <div className='logo-container' >
             
             <svg 
                 version="1.0" 
@@ -40,7 +40,7 @@ const Logo = () => {
                     transform="translate(0.000000,625.000000) scale(0.100000,-0.100000)"
                     fill='none'
                 >
-                    <path ref={outlineLogoRef}
+                    <path 
                     d="M870 3045 l0 -2655 800 0 800 0 0 764 0 764 352 390 351 391 30 -17
                     c57 -33 171 -148 217 -218 76 -116 126 -244 466 -1178 178 -489 325 -891 327
                     -893 2 -2 366 -2 808 -1 l805 3 -341 957 c-188 526 -368 1021 -401 1100 -174
