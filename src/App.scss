@@ -75,3 +75,11 @@ textarea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    height: 100%;
+  }
+
+  
+}

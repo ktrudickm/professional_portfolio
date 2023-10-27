@@ -39,6 +39,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .logo-container {
+        display: none;
+    }
     .solid-logo {
         display: none;
     }
