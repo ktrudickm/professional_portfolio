@@ -181,3 +181,20 @@
 //     }
 // }
 
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        height: 100vh;
+    }
+
+    .contact-page {
+        height: 100%;
+    }
+    .contact-page .text-zone {
+        margin: 0;
+        width: 100%;
+    }
+
+    .contact-page .contact-form {
+        width: 85%;
+    }
+}

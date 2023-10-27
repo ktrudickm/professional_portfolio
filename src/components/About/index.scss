@@ -171,3 +171,18 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .about-page .stage-cube-cont {
+        display: none;
+    }
+
+    .about-page .text-zone {
+        width: 100%;
+        margin: 20px 20px;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+}
