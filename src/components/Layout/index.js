@@ -6,12 +6,12 @@ import Div100vh from 'react-div-100vh'
 
 const Layout = () => {
     return (
-        <Div100vh>
-        <div className='App'>
-            <Sidebar />
-                <Outlet />
-            <Footer />
-        </div>
+        <Div100vh className='App'>
+            {/* <div className='App'> */}
+                <Sidebar />
+                    <Outlet />
+                <Footer />
+            {/* </div> */}
         </Div100vh>
     )
 }
