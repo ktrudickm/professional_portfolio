@@ -56,7 +56,7 @@ const Projects = () => {
             </div>
             <div className='project project4'>
               <div className='text-content'>
-                <a target="_blank" rel='noreferrer' href='https://github.com/ktrudickm/avocado-' className='proj-link'>Password Gen</a>
+                <a target="_blank" rel='noreferrer' href='https://github.com/ktrudickm/avocado-' className='proj-link'>Password Generator</a>
                 {/* <Link to='/' className='proj-link'>Password Gen</Link> */}
                 <p>2021</p>
               </div>

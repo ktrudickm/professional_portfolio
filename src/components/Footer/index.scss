@@ -41,4 +41,23 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .footer-container {
+        justify-content: space-between;
+    }
+    .footer-container .placeholder {
+        display: none;
+    }
 
+    .footer-container .text-container {
+        h1 {
+            font-size: 10px;
+        }
+    
+    }
+    .footer-container .social-list {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+}

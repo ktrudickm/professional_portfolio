@@ -19,6 +19,34 @@
         letter-spacing: -1px;
     }
 
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:20px;
+        height: 100%;
+        width: 100%;
+        background: white;
+        position: fixed;
+        z-index: 1000;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+    }
+
+    .mobile-nav-menu {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1001;
+        font-size: 1.5rem;
+    }
+
     nav {
         display: flex;
         text-align: center;
@@ -76,7 +104,31 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 0;
+
+        .logo {
+            padding: 15px 40px;
+        }
+    }
+
+    .nav-bar .mobile-nav {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-200%, 95%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: black;
+    }
+
+    .nav-bar nav {
+        display: none;
+    }
+
     // .nav-bar { 
     //   background: transparent;
     //   position: initial;
