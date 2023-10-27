@@ -103,19 +103,18 @@
 }
 
 @media screen and (max-width: 768px) {
-    .projects-page {
 
-        .projects-container {
-            .project {
-                width: 50%;
-            }
+    .projects-page .projects-container {
+        .project {
+            width: 50%;
+        }
+    }
         
 
-        .text-zone {
-            h1{
-                font-size: 60px;
-            }
+    .projects-page .text-zone {
+        h1 {
+            font-size: 58px;
         }
     }
 }
-}
+
