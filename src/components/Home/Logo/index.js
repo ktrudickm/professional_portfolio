@@ -1,28 +1,8 @@
 import './index.scss';
-// import { useEffect, useRef } from 'react';
-// import gsap from 'gsap-trial'
-// import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
+
 
 const Logo = () => {
 
-    // const bgRef = useRef();
-    // const outlineLogoRef = useRef();
-
-    // useEffect(() => {
-    //     gsap.registerPlugin(DrawSVGPlugin)
-    
-    //     gsap
-    //       .timeline()
-    //       .to(bgRef.current, {
-    //         duration: 1,
-    //         opacity: 1,
-    //       })
-    //       .from(outlineLogoRef.current, {
-    //         drawSVG: true,
-    //         duration: 10,
-    //       })
-  
-    //   }, [])
 
     return (
         <div className='logo-container' >
